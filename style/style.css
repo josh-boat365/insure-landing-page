@@ -1,0 +1,60 @@
+:root {
+    /* primary colors */
+    --DarkViolet: hsl(256, 26%, 20%);
+    --GrayishBlue: hsl(216, 30%, 68%);
+    /* neutral colors */
+    --VeryDarkViolet: hsl(270, 9%, 17%);
+    --DarkGrayishViolet: hsl(273, 4%, 51%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.header {
+    border: 1px solid green;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    /* width: 77.0833%; */
+    width: 1110px;
+    margin: 20px auto;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.header nav .rhs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+
+.header nav .rhs .links a {
+    text-decoration: none;
+    color: var(--GrayishBlue);
+    margin-right: 32px;
+    text-transform: uppercase;
+}
+
+.header nav .rhs .links a:not(:last-child) {
+    margin-right: 27px;
+}
+
+.header nav .rhs .button {
+    padding: 15px 25px;
+    border: 2px solid black;
+    /* height: 40px;
+    width: 146px; */
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
