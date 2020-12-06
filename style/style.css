@@ -13,10 +13,33 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 16px;
+    font-family: 'Karla', sans-serif;
 }
+
+.headings {
+    font-weight: 700;
+    font-family: 'DM Serif Display', serif;
+    font-size: 60px;
+    line-height: 65px;
+}
+
+.button {
+    display: flex;
+    border: 1px solid black;
+    height: 42px;
+    width: 148px;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Specific target elements */
 
 .header {
     border: 1px solid green;
+    height: 80px;
 }
 
 .header nav {
@@ -33,7 +56,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Karla', sans-serif;
     font-weight: 400;
 }
 
@@ -48,13 +70,76 @@
     margin-right: 27px;
 }
 
-.header nav .rhs .button {
-    padding: 15px 25px;
-    border: 2px solid black;
-    /* height: 40px;
-    width: 146px; */
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    font-weight: 700;
+
+/* button specified in globals*/
+
+.hero {
+    height: 600px;
+    background: var(--DarkViolet);
+}
+
+.hero .patterns .top-right {
+    width: 436px;
+    /* width: 30.2567%; */
+    height: 515px;
+    position: absolute;
+    right: 0;
+}
+
+.hero .patterns .bottom-left {
+    position: absolute;
+    top: 510px;
+    width: 195px;
+    height: 504px;
+    /* float: left; */
+}
+
+.hero .content {
+    /* border: 1px solid yellow; */
+    color: white;
+    display: flex;
+    /* padding-top: 140px; */
+    padding-top: 106px;
+    width: 77.0833%;
+    /* width: 1110px; */
+    margin: 0 auto;
+}
+
+.hero .content .about {
+    width: 51.3465%;
+    /* border: 3px dotted blue; */
+}
+
+.hero .content .about .hr {
+    height: 2px;
+    width: 152px;
+    background: white;
+    margin-bottom: 68px;
+}
+
+.hero .content .about p {
+    margin-top: 25px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+
+.hero .content .about a {
+    margin-top: 33px;
+    color: white;
+    border-color: white;
+    text-transform: uppercase;
+}
+
+
+/* .hero .content .about h1 {
+    
+} */
+
+.hero .content .photo {
+    width: 48.6535%;
+    /* border: 3px dotted green; */
+}
+
+.hero .content .photo .fam-pic {
+    width: 100%;
 }
