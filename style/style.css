@@ -1,3 +1,4 @@
+/*Global Elements*/
 :root {
     /* primary colors */
     --DarkViolet: hsl(256, 26%, 20%);
@@ -7,14 +8,25 @@
     --DarkGrayishViolet: hsl(273, 4%, 51%);
     --VeryLightGray: hsl(0, 0%, 98%);
 }
-
+/*End of Global Elements*/
+/*Global Selectors*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 16px;
 }
-
+a{
+    text-decoration: none;
+     
+}
+.content-header{
+    font-family: 'DM Serif Display', serif;
+    font-size: 3rem;
+    font-weight: 400;
+}
+/*End of Global Selectors*/
+/*Navigation Bar*/
 .header {
     border: 1px solid green;
 }
@@ -43,7 +55,10 @@
     margin-right: 32px;
     text-transform: uppercase;
 }
-
+ .button:hover{
+    background-color: black;
+    color: white;
+    }
 .header nav .rhs .links a:not(:last-child) {
     margin-right: 27px;
 }
@@ -58,3 +73,61 @@
     color: black;
     font-weight: 700;
 }
+/*End of Navigation Bar*/
+/*Site Title*/
+ .bg{
+     background-color: var(--DarkViolet);
+    border: solid 1px red;
+}
+.style-border{
+    border-bottom: solid 1px var(--VeryLightGray);
+    width: 8%;
+    margin: 3rem 0rem 5rem 15rem;
+
+}
+.container{
+    margin: 5rem 0rem 10rem 15rem;
+    color: var(--VeryLightGray);
+    width: 35%;
+}
+#site-title-img{
+    position: absolute;
+    top: 26%;
+    left: 58%;
+    height: 75%;
+    width: 33%;
+}
+#svg-left{
+    position: absolute;
+    top: 55%;
+    left: 0%;
+}
+
+#svg-right{
+    position: absolute;
+    top: 12%;
+    right: -6%;
+    height: 20%;
+}
+.btn{
+    margin-top: 3rem;
+    background: transparent;
+    padding: 10px;
+    width: 18%;
+    border: solid 2px white;
+}
+.btn:hover{
+    background-color: white;
+    
+}
+.btn a:hover{
+    color: black;
+}
+.btn a{
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: white;
+
+}
+/*End of Site Title*/
