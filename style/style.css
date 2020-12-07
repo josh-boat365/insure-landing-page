@@ -143,3 +143,16 @@
 .hero .content .photo .fam-pic {
     width: 100%;
 }
+
+.were-different {
+    width: 77.0833%;
+    margin: 305px auto 0;
+    color: black;
+}
+
+.were-different .hr {
+    height: 2px;
+    width: 152px;
+    background: black;
+    margin-bottom: 65px;
+}
